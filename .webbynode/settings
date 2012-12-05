@@ -1,2 +1,3 @@
 engine=rails3
 domain=testing.com
+rails3_adapter=mysql2

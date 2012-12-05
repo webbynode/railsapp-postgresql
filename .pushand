@@ -1,2 +1,2 @@
 #! /bin/bash
-phd $0 railsapp railsapp.webbyapp.com
+phd $0 railsapp railsapp
