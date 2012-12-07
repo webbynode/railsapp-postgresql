@@ -1,4 +1,4 @@
 engine=rails3
 domain=testing.com
 rails3_adapter=mysql2
-dns_alias='www..railsapp'
+dns_alias='www..railsapp2'
