@@ -6,3 +6,15 @@
   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
+
+<section class="stats">
+  Number of users on file: <%= User.count %>
+</section>
+
+<section class="stats">
+  <% if User.count > 0 %>
+    Last user (added at <%= User.last.created_at %>) - <%= User.last.name %>.
+  <% else %>
+    No users on the system.
+  <% end %>
+</section>
